@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.timers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.timer {
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.label {
+    font-size: 1em;
+}
+
+#finish {
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#discomfort-text {
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+.blue {
+    color: blue;
+}

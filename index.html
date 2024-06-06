@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="result" class="hidden">YOUR BREATH HOLDING RESULT</div>
+    <button id="start">START</button>
+    <div class="timers">
+        <div class="timer-container hidden" id="main-timer-container">
+            <div class="label">Breath Hold</div>
+            <div class="timer" id="main-timer">00:00:00</div>
+        </div>
+        <div id="discomfort-text" class="hidden">Click anywhere on the screen when you feel discomfort or contractions</div>
+        <div class="timer-container hidden" id="secondary-timer-container">
+            <div class="label">Discomfort Time</div>
+            <div class="timer" id="secondary-timer">00:00:00</div>
+        </div>
+    </div>
+    <button id="finish" class="hidden">FINISH</button>
+    <script src="app.js"></script>
+</body>
+</html>
